@@ -9,11 +9,5 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-override_dh_auto_install:
-	{ echo '#!/usr/bin/env python'; \
-cat debian/tmp/usr/lib/OpenRTM-aist/py_helper/uuid.py } > /tmp/out \
-&& mv /tmp/out debian/tmp/usr/lib/OpenRTM-aist/py_helper/uuid.py
-	dh_auto_install --
-
 %:
 	dh  $@
