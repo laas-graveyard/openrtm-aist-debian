@@ -1,0 +1,28 @@
+This work was packaged for Debian by:
+
+    Thomas Moulard <thomas.moulard@gmail.com> on Tue, 30 Sep 2010 23:54:00 +0200
+
+It was downloaded from http://www.openrtm.org/OpenRTM-aist/html-en/Download.html
+
+Upstream Author(s):
+
+    Noriaki Ando <n-ando@aist.go.jp>
+
+Copyright:
+
+    Copyright (C) 2003-2005
+       Task-intelligence Research Group,
+       Intelligent Systems Research Institute,
+       National Institute of
+           Advanced Industrial Science and Technology (AIST), Japan
+       All rights reserved.
+
+License:
+
+    See `/usr/share/common-licenses/LGPL-2.1'.
+
+The Debian packaging is:
+
+    Copyright (C) 2010 Thomas Moulard <thomas.moulard@gmail.com>
+    and is licensed under the GPL version 3,
+    see `/usr/share/common-licenses/GPL-3'.

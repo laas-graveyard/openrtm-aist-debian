@@ -1,0 +1,9 @@
+Document: openrtm-aist
+Title: Debian openrtm-aist Manual
+Author: Noriaki Ando <n-ando@aist.go.jp>
+Abstract: Doxygen documentation of jrl-mal.
+Section: Programming
+
+Format: HTML
+Index: /usr/share/doc/OpenRTM-aist/docs/ClassReference/html/index.html
+Files: /usr/share/doc/OpenRTM-aist/docs/ClassReference/html/*.html
