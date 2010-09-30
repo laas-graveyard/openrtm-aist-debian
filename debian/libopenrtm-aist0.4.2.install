@@ -1,2 +1,4 @@
+usr/etc/*
 usr/bin/*
 usr/lib/lib*.so.*
+usr/lib/OpenRTM-aist/*

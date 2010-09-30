@@ -1,0 +1,45 @@
+Description: Upstream changes introduced in version 0.4.2-1
+ This patch has been created by dpkg-source during the package build.
+ Here's the last changelog entry, hopefully it gives details on why
+ those changes were made:
+ .
+ openrtm-aist (0.4.2-1) lucid; urgency=low
+ .
+   * Initial work.
+ .
+ The person named in the Author field signed this changelog entry.
+Author: Thomas Moulard <thomas.moulard@gmail.com>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: http://bugs.debian.org/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: <YYYY-MM-DD>
+
+--- openrtm-aist-0.4.2.orig/rtm/ConfigAdmin.cpp
++++ openrtm-aist-0.4.2/rtm/ConfigAdmin.cpp
+@@ -19,6 +19,7 @@
+ #include <rtm/ConfigAdmin.h>
+ #include <algorithm>
+ #include <assert.h>
++#include <cstring>
+ 
+ namespace RTC
+ {
+--- openrtm-aist-0.4.2.orig/rtm/Properties.h
++++ openrtm-aist-0.4.2/rtm/Properties.h
+@@ -20,7 +20,7 @@
+ #ifndef Properties_h
+ #define Properties_h
+ 
+-
++#include <climits>
+ #include <string>
+ #include <vector>
+ #include <map>
