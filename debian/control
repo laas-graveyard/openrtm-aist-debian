@@ -4,10 +4,10 @@ Maintainer: Thomas Moulard <thomas.moulard@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~),
 	       doxygen (>= 1.6.3),
 	       python,
-	       libace-dev (>= 5.6.3),
-	       libomniorb4-dev (>= 4.1.2),
-	       omniorb4 (>= 4.1.2),
-	       omniidl4 (>= 4.1.2)
+	       libace-dev (>= 5.4.7),
+	       libomniorb4-dev (>= 4.1.1),
+	       omniorb4 (>= 4.1.1),
+	       omniidl4 (>= 4.1.1)
 Standards-Version: 3.8.4
 Vcs-Git: git://github.com/jrl-umi3218/openrtm-aist-debian.git
 Vcs-browser: http://github.com/jrl-umi3218/openrtm-aist-debian
@@ -34,7 +34,10 @@ Description: OpenRTM-aist binary package
 Package: libopenrtm-aist-dev
 Section: libdevel
 Architecture: any
-Depends: libace-dev (>= 5.6.3), libomniorb4-dev (>= 4.1.2), libopenrtm-aist0.4.2 (= ${binary:Version}), ${misc:Depends}
+Depends: libace-dev (>= 5.4.7),
+	 libomniorb4-dev (>= 4.1.1),
+	 libopenrtm-aist0.4.2 (= ${binary:Version}),
+	 ${misc:Depends}
 Suggests: libopenrtm-aist-doc
 Description: OpenRTM-aist development package
  OpenRTM-aist is one of the reference implementations of RT-Middleware
